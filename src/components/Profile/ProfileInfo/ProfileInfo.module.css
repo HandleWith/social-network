@@ -1,0 +1,20 @@
+.profile {
+  display: grid;
+  grid-template-areas: 
+  "img inf"
+  "wra wra";
+  grid-template-columns: 170px 1fr;
+}
+
+.img {
+  background: center / contain;
+  margin-top: 10px;
+  grid-area: img;
+  width: 150px;
+  height: 150px;
+}
+
+.info {
+  grid-area: inf;
+}
+

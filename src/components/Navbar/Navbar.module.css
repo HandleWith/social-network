@@ -1,0 +1,21 @@
+.navbar {
+  grid-area: n;
+  background-color: rgba(15, 107, 15, 0.579);
+}
+
+.menu {
+  padding: 30px;
+}
+
+.menu>li {
+  padding-top: 15px;
+}
+
+.menu>li>a {
+  color: white;
+  font-size: 20px;
+}
+
+.menu>li>a.active {
+  color:gold;
+}
